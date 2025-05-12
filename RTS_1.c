@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(void)
-{printf("Hello World \n");
+{printf("Beketov Sergey Mikhailovich\nGroup I913B \nTask "1");
+  printf("Hello World \n");
 return(1);
 }
