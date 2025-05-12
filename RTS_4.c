@@ -3,7 +3,7 @@
 #include <inttypes.h>
 #include <errno.h>
 #include <sys/neutrino.h>
-#define NANOSECONDS_IN_SECOND 1000000000LL // для перевода в нс
+#define NANOSECONDS_IN_SECOND 1000000000LL // Г¤Г«Гї ГЇГҐГ°ГҐГўГ®Г¤Г  Гў Г­Г±
 
 void *extended_thread(void *arg)
 {
@@ -12,6 +12,7 @@ void *extended_thread(void *arg)
 }
 int main(void)
 {
+    printf("Beketov Sergey Mikhailovich\nGroup I913B \nTask "4");
     uint64_t wait_time;
     struct sigevent sig_event;
     int ret_val;
