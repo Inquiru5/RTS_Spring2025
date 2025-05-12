@@ -27,6 +27,7 @@ void *func_thread2(void *arg)
 }
 int main(void)
 {
+    printf("Beketov Sergey Mikhailovich\nGroup I913B \nTask 5\n");
     time_t cur_time;
     char time_buf[27];
     barrier_init(&my_barrier, NULL, 3);
