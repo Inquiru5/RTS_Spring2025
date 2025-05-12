@@ -12,7 +12,7 @@ void *extended_thread(void *arg)
 }
 int main(void)
 {
-    printf("Beketov Sergey Mikhailovich\nGroup I913B \nTask "4");
+    printf("Beketov Sergey Mikhailovich\nGroup I913B \nTask 4\n");
     uint64_t wait_time;
     struct sigevent sig_event;
     int ret_val;
